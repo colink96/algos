@@ -12,7 +12,7 @@ Input: ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"] */
 
 //Solution:
-//O(n) Time, 0(1) Space
+//O(n) Time, O(1) Space
 var reverseString = function(s) {
   let tempChar;
   for (let i = 0; i < Math.floor(s.length / 2); i++) {
